@@ -26,7 +26,7 @@ module Meta
     }
 
     exception NotFoundException {
-        int entityId;
+        int id;
     }
 
     interface MetaFunctions
