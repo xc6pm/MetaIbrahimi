@@ -34,6 +34,7 @@ module Meta
         int verifyTicket(string ticket);
 
         string getMap(int mapId) throws NotFoundException;
+        void setMap(int mapId, string data) throws NotFoundException;
 
         PlayerProfile getPlayerProfile(int userId) throws NotFoundException;
     }
